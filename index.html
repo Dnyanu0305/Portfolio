@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">DNYANU</h2>
+                <div id="one">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id="close" class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i id="fas" class="fas fa-bars" onclick="openmenu()"></i>
+            </div>
+            </nav>
+            <button id="btn1">Change Mode</button>
+            <div class="header-text">
+                <p>FullStack Developer</p>
+                <h1>Hi, I'm <span>Dnyanu<br></span>Satptue From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/img2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me!</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas facere impedit laudantium. Blanditiis error facilis saepe rerum quibusdam illo commodi quo ex excepturi, at nobis neque voluptatum dolore nulla doloribus ipsam labore placeat, vero voluptatibus exercitationem pariatur, vel beatae! Ad deserunt, aliquam officiis illo eaque quo iure. Sint maxime cum laudantium ipsum dicta, quam perspiciatis, architecto cupiditate adipisci velit facere?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full-Stack Devlopment</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Buildings Android/ios Apps</li>
+                        </ul>
+                    </div>
+                        <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025-Current</span><br>Full Stack Development Traning at Seven Mentor Institute</li>
+                            <li><span>2023</span><br>6 Month Work Education Counsellor Role in Aditya Education Group, Beed.</li>
+                            <li><span>2016-2017</span><br>6 Month Internship in Seven Mentor Institute.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Full Stack Development Traning at Seven Mentor Institute</li>
+                            <li><span>2025</span><br>Information Technology(IT)Diploma from Beed.</li>
+                            <li><span>2022</span><br>12th Pass from Beed.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eveniet eum hic maxime amet sequi et accusamus libero ipsa natus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>FullStack Developer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eveniet eum hic maxime amet sequi et accusamus libero ipsa natus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eveniet eum hic maxime amet sequi et accusamus libero ipsa natus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quam? Officiis dicta soluta excepturi porro atque quaerat ratione.<p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quam? Officiis dicta soluta excepturi porro atque quaerat ratione.<p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quam? Officiis dicta soluta excepturi porro atque quaerat ratione.<p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!-- Context -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contect-left">
+                    <h1 class="sub-title">Contect Me!</h1>
+                    <p><i class="fas fa-paper-plane"></i>Email : Dnyanu305@Gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>Contact :  +917945124563</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/my-cv.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contect-Right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2" type="button" onclick="fun()">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Dnyanu. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+<script src="script.js"></script>
+</html>
